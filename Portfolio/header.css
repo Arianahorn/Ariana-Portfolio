@@ -2,5 +2,69 @@
 .header {
     overflow: hidden;
     background-color: #CB5F78;
-    padding: 20px 10px;
+    height: 80px;
 }
+
+.header a {
+    float: none;
+    color: white;
+    text-align: center;
+    font-family: avenir;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    font-style: bold;
+
+}
+
+.header-brand {
+    padding: 5px;
+    font-family: avenir;
+    font-style: heavy;
+}
+
+
+.header a:hover {
+    background: #FDC9D8;
+    color: white;
+    border-radius: 4fr;
+}
+
+.header-right {
+    float: right;
+    padding: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+} }
+
+/* gird columns */
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    height: 266px;
+    font-family: avenir;
+    font-size: 28px;
+  }
+
+  .row {
+      background-color: #FDC9D8;
+  }
+
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  
