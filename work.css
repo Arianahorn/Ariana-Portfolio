@@ -262,9 +262,7 @@ h5 {
     color: #323232
   }
 
-.item3 {
-    background-color: #fcf1e5;
-}  
+
 .item4 {
     background-color: #fcf1e5;
     text-align: right;
@@ -272,7 +270,7 @@ h5 {
 }
 
 .item7 {
-    background-color: #fcf1e5;
+    text-align: center;
 }
 
 .item8 {
@@ -293,4 +291,14 @@ h3 {
     padding: 15px;
     color: #323232;
     font-size: 20px;
+}
+
+
+
+.item6 {
+  text-align: center;
+}
+
+.item3 {
+  text-align: center;
 }
