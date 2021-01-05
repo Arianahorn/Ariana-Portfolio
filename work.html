@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="work.js">    
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+</head>
+<body>
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+      </button>   
+        <div class="topnav" id="myTopnav">
+          
+            <a href="homepage.html" class="active">
+            <img src="LOGO/LOGOSAH.png" alt=""></a>
+            <a href="aboutme.html">About Me</a>
+            <a href="#portfolio" style="color:#323232">Portfolio</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+          <div class="grid-container">
+            <div class="item1">
+                <h1><strong>My Work</strong></h1>
+                <h2>Introduce My Projects</h2>
+                <p>My work in design field is based on an experience of 2 years so far, specialized in UX/UI, Visual and Logo Design. All my products are created with a big passioante about my users needs and my own creativity and hardworking will to learn always something new and give others a broader perspective on their current mind/view/project. 
+                </p>
+            </div>
+            <div class="item2">
+                <aside>
+                    <h4>
+                        redesign
+                        <br>
+                        webdesign 
+                        <br>
+                        RWD
+                        <br>
+                        mobile design
+                        <br>
+                        app design
+                        <br>
+                        logo design
+                    </h4>
+                </aside>
+            </div> 
+            <div class="item3">
+                <img src="#" alt="moc">
+            </div>
+            <div class="item4">
+                <h3>BUT - Budget under Travel</h3>
+                <h2>App idea under the theme "Travel"</h2>
+
+                <p>This was my first own school project what I created through out my studies at the unservistiy of Berkeley Ext. 
+                    We had to come up with our own travel app idea, beginning from user research, to competitor checks, to user interviews and design plus testing. BuT is designed for created for travlers with a time periode of 2-3 weeks, mostly Road or Round-Trips. You can add your whole trip in the application and your planned travel budget, what will always be calculated for your best and cheapest way. Father on you can look up realated trips and recommendation from other travelers.
+                </p>
+            </div>
+            <div class="item5">
+                <h3>AssistMe</h3>
+                
+                <h2>Application for homeschooling and scheduling</h2>
+                <p>AssistMe is an app designed for parents whose children are partaking in online learning. This all-in-one app organizes crucial information, communication and schedules in a way that is accessible to all family members. Parents can check with an enable notification system if their kids checked in to class and when they are done, or even set them a reminder. Kids on the otherside can also check whatelse is scheduled throughout their day, like acitvities or important appointments. 
+                </p>
+            </div>
+            <div class="item6">
+                <img src="#" alt="pic2">
+            </div>
+            <div class="item7">
+                <img src="#" alt="pic3">
+            </div>
+            <div class="item8">
+                <h3>Teach With Africa</h3>
+                <h2>Non-Profit Organization website redesign</h2>
+                <p>This was my first own school project what I created through out my studies at the unservistiy of Berkeley Ext. 
+                    We had to come up with our own travel app idea, beginning from user research, to competitor checks, to user interviews and design plus testing. BuT is designed for created for travlers with a time periode of 2-3 weeks, mostly Road or Round-Trips. You can add your whole trip in the application and your planned travel budget, what will always be calculated for your best and cheapest way. Father on you can look up realated trips and recommendation from other travelers.</p>
+            </div>
+          </div>
+    
+    
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="footer-container">
+            <div class="footer-row">
+              <div class="footer-column">
+                <h5>Ariana Horn</h5>
+                  <div class="footerbrand" href="#">
+                     <img src="LOGO/LOGOSAH.png" max-width="15%" alt="">
+                  </div>
+              </div>
+              <div class="footer-column">
+                    <h5>Location</h5>
+                    <h6>San Francisco
+                        <br>CA - 94115</h6>
+               </div> 
+
+              <div class="footer-column">
+                    <h5>Let's Connect!</h5>
+                        
+                            <a class="btn text-center rounded-circle" href="#">
+                                <i class="fa fa-fw fa-facebook"></i></a>
+                            <a class="btn text-center rounded-circle" href="#">
+                            <i class="fa fa-fw fa-instagram"></i></a>
+                             <a class="btn  text-center rounded-circle" href="">
+                                <i class="fa fa-fw fa-linkedin"></i></a>
+                             <a class="btn text-center rounded-circle" href="#">
+                                <i class="fa fa-fw fa-dribbble"></i></a>
+                  </div>
+               
+              </div>
+            </div>
+        </div>
+    </footer> 
+      <div class="copyright py-4 text-center text-white">
+        <div class="container-copyright">
+            <small>Copyright &copy; Ariana Horn 2020</small>
+        </div>
+      </div>
+      <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+      <script type="text/javascript" src="homepage.js"></script>
+      <script> 
+        const btnScrollToTop = $("#btnScrollToTop");
+        btnScrollToTop.hide();  
+
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 100) {
+                btnScrollToTop.fadeIn();
+            } else {
+                btnScrollToTop.fadeOut();
+            }
+            });
+      
+          btnScrollToTop.on('click', function(e) {
+                  $("html, body").animate({scrollTop: 0}, 500);
+                  });
+      </script>       
+    
+</body>
+</html>

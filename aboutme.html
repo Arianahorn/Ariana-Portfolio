@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aboutme</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="aboutme.js">    
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+</head>
+<body>
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+      </button>   
+        <div class="topnav" id="myTopnav">
+          
+            <a href="homepage.html" class="active">
+            <img src="LOGO/LOGOSAH.png" alt=""></a>
+            <a href="#news" style="color:#323232">About Me</a>
+            <a href="work.html">Portfolio</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+          <div class="grid-container">
+            <div class="item1">
+                <h1><strong>About Me</strong></h1>
+                <p>Ariana an active, ambitious and adventurous women from Austria. Fearless in mind, but indeed thoughtful in decisions is she a hard working person in her current field UX/UI Design and in her previous position in event management. She finds joy in sketching/drawing and loves to look behind people's actions. 
+                </p>
+            </div>
+            <div class="item2">
+                <aside>
+                    <h3>
+                        energetic
+                        <br>
+                        social 
+                        <br>
+                        passionated
+                        <br>
+                        focused
+                        <br>
+                        teamplayer
+                        <br>
+                        reliable
+                        <br>
+                        determined
+                    </h3>
+                </aside>
+            </div>
+            <div class="item3"><strong>Values</strong></div>  
+            <div class="item4">
+                <img src="images/creativity.JPG" width="50%" alt="pic1">
+            </div>
+            <div class="item5">
+                <h2>Creativity</h2>
+                <p>“A creative mind is an active mind” - this quote couldn’t describe myself better. 
+                    <br>During an activity (mostly when I do one of my favourite outdoor sports) I get the most out of myself, what I always try to give back in my work. Sketching was from a young age of mine already something that truely made me happy and is now again in my work life a high accomblished skill from my co-workers. Creativity is so much more though, I am happy when people tell me they love my way of thinking and what I do/create with it.
+                </p>
+            </div>
+            <div class="item6">
+                <h2>Entrepreneurial</h2>
+                <p>Follow the path that already exists is a good approach when you want a secure and easy life, but establishing something new and earn the value of it is my goal. Think outside the box and you will gain more knowledge and confidence. Seeking for opportunities to grow on was and will be always my biggest trait.</p>
+            </div>
+            <div class="item7">
+                <img src="images/entrepreneurial.JPG" width="50%" alt="pic2">
+            </div>
+            <div class="item8">
+                <img src="images/adventurer.JPG" width="50%" alt="pic3">
+            </div>
+            <div class="item9">
+                <h2>Adventurer</h2>
+                <p>Traveling fulfills myself, even though we live in a global pandemic right now doesn’t keep me off from exploring my environment and closest surrounding. Finding the needs of each individiual and adjust them with others is the most challenging work. Being adventurous gives me information to understand those needs. </p>
+            </div>
+          </div>
+    
+    
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="footer-container">
+            <div class="footer-row">
+              <div class="footer-column">
+                <h5>Ariana Horn</h5>
+                  <div class="footerbrand" href="#">
+                     <img src="LOGO/LOGOSAH.png" max-width="15%" alt="">
+                  </div>
+              </div>
+              <div class="footer-column">
+                    <h5>Location</h5>
+                    <h6>San Francisco
+                        <br>CA - 94115</h6>
+               </div> 
+
+              <div class="footer-column">
+                    <h5>Let's Connect!</h5>
+                        
+                            <a class="btn text-center rounded-circle" href="#">
+                                <i class="fa fa-fw fa-facebook"></i></a>
+                            <a class="btn text-center rounded-circle" href="#">
+                            <i class="fa fa-fw fa-instagram"></i></a>
+                             <a class="btn  text-center rounded-circle" href="">
+                                <i class="fa fa-fw fa-linkedin"></i></a>
+                             <a class="btn text-center rounded-circle" href="#">
+                                <i class="fa fa-fw fa-dribbble"></i></a>
+                  </div>
+               
+              </div>
+            </div>
+        </div>
+    </footer> 
+      <div class="copyright py-4 text-center text-white">
+        <div class="container-copyright">
+            <small>Copyright &copy; Ariana Horn 2020</small>
+        </div>
+      </div>
+      <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+      <script type="text/javascript" src="homepage.js"></script>
+      <script> 
+        const btnScrollToTop = $("#btnScrollToTop");
+        btnScrollToTop.hide();  
+
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 100) {
+                btnScrollToTop.fadeIn();
+            } else {
+                btnScrollToTop.fadeOut();
+            }
+            });
+      
+          btnScrollToTop.on('click', function(e) {
+                  $("html, body").animate({scrollTop: 0}, 500);
+                  });
+      </script>       
+</body>
+</html>
