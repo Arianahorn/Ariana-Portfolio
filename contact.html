@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <link rel="stylesheet" href="contact.js">     -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+
+</head>
+<body>
+    <button id="btnScrollToTop">
+    <i class="material-icons">arrow_upward</i>
+  </button>   
+    <div class="topnav" id="myTopnav">
+      
+        <a href="index.html" class="active">
+        <img src="LOGO/LOGOSAH.png" alt=""></a>
+        <a href="aboutme.html">About Me</a>
+        <a href="work.html">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact"style="color:#323232">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="image-container">
+        <div class="text">CONTACT</div>
+      </div>
+
+      <!-- <h1>Contact Form</h1> -->
+
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <br>
+          <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="austria">Austria</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="germany">Germany</option>
+          </select>
+      <br>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>     
+ <!-- Footer -->
+ <footer class="footer text-center">
+    <div class="footer-container">
+        <div class="footer-row">
+          <div class="footer-column">
+            <h5>Ariana Horn</h5>
+              <div class="footerbrand" href="#">
+                 <img src="LOGO/LOGOSAH.png" max-width="15%" alt="">
+              </div>
+          </div>
+          <div class="footer-column">
+                <h5>Location</h5>
+                <h6>San Francisco
+                    <br>CA - 94115</h6>
+           </div> 
+
+          <div class="footer-column">
+                <h5>Let's Connect!</h5>
+                    
+                        <a class="btn text-center rounded-circle" href="#">
+                            <i class="fa fa-fw fa-facebook"></i></a>
+                        <a class="btn text-center rounded-circle" href="#">
+                        <i class="fa fa-fw fa-instagram"></i></a>
+                         <a class="btn  text-center rounded-circle" href="">
+                            <i class="fa fa-fw fa-linkedin"></i></a>
+                         <a class="btn text-center rounded-circle" href="#">
+                            <i class="fa fa-fw fa-dribbble"></i></a>
+              </div>
+           
+          </div>
+        </div>
+    </div>
+    </footer> 
+    <div class="copyright py-4 text-center text-white">
+      <div class="container-copyright">
+          <small>Copyright &copy; Ariana Horn 2020</small>
+      </div>
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+    <script type="text/javascript" src="homepage.js"></script>
+    <script> 
+      const btnScrollToTop = $("#btnScrollToTop");
+      btnScrollToTop.hide();  
+
+      $(window).on('scroll', function() {
+          if ($(this).scrollTop() > 100) {
+              btnScrollToTop.fadeIn();
+          } else {
+              btnScrollToTop.fadeOut();
+          }
+          });
+    
+        btnScrollToTop.on('click', function(e) {
+                $("html, body").animate({scrollTop: 0}, 500);
+                });
+    </script>       
+</body>
+</html>

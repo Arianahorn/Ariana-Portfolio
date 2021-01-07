@@ -217,16 +217,16 @@ h5 {
 
 
 .grid-container {
-    margin-top: 70px;
+    margin-top: 30px;
   display: grid;
   grid-template-areas:
     'mywork mywork mywork sidebar'
     'moc1 project1 project1 sidebar'
     'project2 project2 moc2 sidebar'
     'moc3 project3 project3 sidebar';
-  grid-gap: 10px;
+  /* grid-gap: 10px; */
   /* background-color: #2196F3; */
-  padding: 10px;
+  padding: 20px;
 }
 
 .item1 {
@@ -244,7 +244,7 @@ h5 {
   
   .item2 {
     background-color: #F0D0D7;
-    padding: 30px;
+    padding: 20px;
     margin: 0;
   }
 
@@ -258,7 +258,7 @@ h5 {
     padding: 10px;
     margin-top: 150px;
     background-color: #F0D0D7;
-    padding: 20px;
+    padding: 30px;
     color: #323232
   }
 
