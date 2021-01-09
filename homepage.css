@@ -456,3 +456,18 @@ text-align: center;
       padding: 20px;
   }
 }
+
+/* PORTFOLIO Button */
+
+.portfolioButton {
+  text-decoration: none;
+  background-color: #cb5f78;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+
+.portfolioButton:hover {
+    background-color: #fdc9d8;
+    color: #323232; 
+}
